@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.navbar ul > li{
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
